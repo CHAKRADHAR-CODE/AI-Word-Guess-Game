@@ -1,11 +1,6 @@
 CREATE DATABASE word_game;
 USE word_game;
-
-CREATE TABLE words (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    word VARCHAR(50) NOT NULL
-);
-
+CREATE TABLE words ( id INT AUTO_INCREMENT PRIMARY KEY,word VARCHAR(50) NOT NULL);
 INSERT INTO words (word) VALUES
 ('abstraction'),
 ('accuracy'),
